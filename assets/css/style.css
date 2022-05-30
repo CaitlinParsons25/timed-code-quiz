@@ -1,0 +1,54 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+:root {
+    --primary: #000080;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 0;
+}
+
+.highscore-link {
+    color: var(--primary);
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.intro h1 {
+    color: var(--primary);
+    font-size: 36px;
+}
+
+.intro p {
+    max-width: 60%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.intro button {
+    font-size: 18px;
+    color: #ffffff;
+    background-color: var(--primary);
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 10px 0 0 0;
+    border: solid 2px;
+    border-color: grey;
+}
+
+.intro button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+
+
