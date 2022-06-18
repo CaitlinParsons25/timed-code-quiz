@@ -23,6 +23,18 @@ header {
     flex-direction: column;
 }
 
+.toggledisplay{
+    display: none;
+}
+
+#correct-answer{
+    color: green;
+}
+
+#incorrect-answer{
+    color: red;
+}
+
 .intro h1 {
     color: var(--primary);
     font-size: 36px;
